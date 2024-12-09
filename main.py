@@ -13,9 +13,9 @@ import google.generativeai as genai
 
 app = FastAPI()
 
-ACCESS_TOKEN = "<LINE_ACCESS_TOKEN>"
-CHANNEL_SECRET = "<LINE_CHANNEL_SECRET>"
-GEMINI_API_KEY = "<GEMINI_API_KEY>"
+ACCESS_TOKEN = "V25xhs4SySiSAbLkOAZ6i0ktzW4CyhjizPhM9fL+MubkS2dnDBYrp0xEGvPyU6ItEiyxYjeq4dk8Hf7Y9o1SVZKEX+9Cy9QAGIIM4OdasPud8iisbIDIutx+wCh7rRGGOrYmeK2QWer0pnvDOKB0mgdB04t89/1O/w1cDnyilFU="
+CHANNEL_SECRET = "1ff49a2a3ee21666d3c0dc145181adc2"
+GEMINI_API_KEY = "AIzaSyCitTSkOqIGjc0xptHygLSYo7qPtp3iX90"
 
 configuration = Configuration(access_token=ACCESS_TOKEN)
 handler = WebhookHandler(channel_secret=CHANNEL_SECRET)
